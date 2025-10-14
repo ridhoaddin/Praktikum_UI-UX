@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+    <link rel="stylesheet" href="index22.css">
+</head>
+<body>
+
+    <div class="container">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="generate.html">Generate Link</a></li>
+                <li><a href="transactio.html">Transaction History</a></li>
+                <li><a href="policy.html">Policy</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+
+        <form class="transaction-form">
+            <div class="left-panel">
+                <div class="image-placeholder"></div>
+                <button type="button" class="btn-upload">Upload Picture</button>
+            </div>
+
+            <div class="form-right">
+                <div class="form-group">
+                    <label for="title">Title Here:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="account-number">Account Number:</label>
+                    <input type="text" id="account-number" name="account-number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="bank">Bank:</label>
+                    <select id="bank" name="bank">
+                        <option value="HSBC" selected>HSBC</option>
+                        <option value="btn">Bank BTN</option>
+                        <option value="bca">Bank BCA</option>
+                        <option value="bri">Bank BRI</option>
+                        <option value="mandiri">Bank Mandiri</option>
+                        <option value="mega">Bank Mega</option>
+                        <option value="dana">DANA</option>
+                        <option value="gopay">GOPAY</option>
+                        <option value="ovo">OVO</option>
+                        <option value="shopeepay">ShopeePay</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="account-holder">Account Holder:</label>
+                    <input type="text" id="account-holder" name="account-holder" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="transaction-count">Transaction:</label>
+                    <div class="transaction-input-wrapper">
+                        <input type="number" id="transaction-count" name="transaction-count" value="1" min="1">
+                        <span class="note">* if the transaction is for 3 person, choose 3 from the drop-down list</span>
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="send-mobile" name="send-mobile">
+                        <label for="send-mobile">Send to Mobile Phone</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="send-email" name="send-email">
+                        <label for="send-email">Send to Email</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="mobile-phone">Send to Mobile Phone:</label>
+                    <input type="text" id="mobile-phone" name="mobile-phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Send to Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <nav class="submit-container">
+                    <button type="submit"><a href="hasil22.html">Generate Nabr Link</a></button>
+                </nav>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

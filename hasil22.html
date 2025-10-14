@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="hasil22.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content-wrapper">
+            <div class="image-placeholder">
+                </div>
+            <div class="payment-details">
+                <div class="product-info">
+                    <p><strong>Title Here :</strong></p>
+                    <p><strong>Description :</strong></p>
+                    <div class="description-details">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <p><strong>Total Amount :</strong></p>
+                    <p><strong>Pay to :</strong></p>
+                </div>
+
+                <form class="payment-form">
+                    <div class="form-group">
+                        <label for="payment-type">Payment Type</label>
+                        <select id="payment-type" name="payment-type">
+                            <option value="visa-debit">Visa Debit</option>
+                            <option value="mastercard">Mastercard</option>
+                            <option value="paypal">PayPal</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="account-holder">Account Holder</label>
+                        <input type="text" id="account-holder" name="account-holder" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="account-no">Account No</label>
+                        <input type="text" id="account-no" name="account-no">
+                    </div>
+                    
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="send-mobile" name="send-mobile">
+                        <label for="send-mobile">Send to Mobile Phone</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="send-email" name="send-email">
+                        <label for="send-email">Email me copy of transaction</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mobile-phone">Send to Mobile Phone</label>
+                        <input type="text" id="mobile-phone" name="mobile-phone" inputmode="numeric">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Send to Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            <button type="button"><a href="penutup.html">Pay using Quid Link</a></button>
+        </footer>
+    </div>
+
+</body>
+</html>
