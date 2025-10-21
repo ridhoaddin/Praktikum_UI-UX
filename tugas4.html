@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ridho Addin - 0110225119</title>
+        <style>    
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            fieldset {
+                border: 1px solid #000;
+                padding: 15px;
+                margin: 20px; /* Jarak luar dari fieldset utama */
+            }
+            .header-bar {
+                background-color: #827b82; /* Warna kuning di header */
+                color: white;
+                padding: 5px 20px;
+                font-size: 0.9em;
+            }
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            .profile-image-container {
+                float: left;
+                width: 20%;
+                margin-right: 20px;
+            }
+            .profile-image {
+                width: 100%;
+                height: auto;
+            }
+            .profile-details-table {
+                width: 75%;
+                float: left;
+            }
+            .category-text {
+                font-size: 0.9em;
+                text-align: right;
+                vertical-align: top;
+            }
+            .description-article {
+                padding-top: 10px;
+                clear: both;
+            }
+            .bottom-section {
+                margin-top: 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+            .video-frame {
+                border: 1px solid #000;
+                width: 200px; /* Ukuran mendekati gambar */
+                height: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 0.8em;
+                position: relative;
+                box-sizing: border-box;
+            }
+            .gallery-fieldset {
+                width: 200px; /* Ukuran mendekati gambar */
+                padding: 5px;
+                text-align: center;
+                margin: 0 20px;
+            }
+            .gallery-img {
+                width: 30%; /* Agar 2 gambar per baris */
+                height: auto;
+                margin: 1%;
+                border: 1px solid #000; /* Garis di sekitar gambar kecil */
+                box-sizing: border-box;
+            }
+            .social-fieldset {
+                width: 150px; /* Ukuran mendekati gambar */
+                padding: 10px;
+                margin: 0;
+            }
+            .social-link {
+                display: block;
+                margin-bottom: 5px;
+            }
+            /* Simulasi video player control */
+            .video-caption {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.7);
+                color: white;
+                padding: 2px 5px;
+                font-size: 0.7em;
+            }
+            .video-controls {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background-color: #eee;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                padding: 0 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header-bar">
+            Ridho Addin - 0110225119
+        </div>
+
+        <fieldset>
+            <legend>Ridho Addin - 0110225119</legend>
+            <div class="clearfix">
+                <div class="profile-image-container">
+                    <img src="Ronaldo4.jpg" alt="Cristiano Ronaldo" class="profile-image">
+                </div> 
+
+                <table class="profile-details-table">
+                    <tbody>
+                        <tr>
+                            <td style="font-size: 1.5em; font-weight: bold; padding-bottom: 10px;">Cristiano Ronaldo</td>
+                            <td class="category-text">
+                                <span style="font-weight: bold;">Categories</span><br>
+                                Lorem ipsum<br>
+                                dolor sit<br>
+                                Cristiano Ronaldo
+                            </td>
+                        <tr>
+                            <td>Address : Portugal</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Email : <a href="cristianoronaldo@gmail.com" style="color: rgb(8, 12, 211); text-decoration: none;">cristianoronaldo@gmail.com</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Telephone : 082262331918</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <article class="description-article">
+                <section>
+                    <p>"Cristiano Ronaldo adalah pemain sepak bola Portugal yang lahir pada 1985 di Madeira dan dikenal sebagai salah satu pemain terhebat di generasinya, dengan lima gelar Ballon d'Or. Ia memulai kariernya di Sporting Lisbon sebelum meraih kesuksesan besar di Manchester United, Real Madrid, dan Juventus, dan kini bermain di Al-Nassr. Kariernya diwarnai banyak rekor, termasuk pencetak gol terbanyak Liga Champions dan pencetak gol terbanyak pertama dalam sejarah yang mencapai 900 gol dalam pertandingan resmi."</p>
+                </section>
+                <section style="padding-top: 5px;">
+                    <p>"Tidak ada salahnya bermimpi menjadi pemain terbaik dunia. Ini semua tentang mencoba menjadi yang terbaik. Saya akan terus bekerja keras untuk mencapainya, tetapi itu sesuai dengan kemampuan saya."</p>
+                </section>
+            </article>
+
+            <div class="bottom-section clearfix">
+                
+                <div style="width: 200px; height: 120px; box-sizing: border-box; position: relative;">
+                    <video controls width="200" height="120" style="display: block;">
+                        <source src="Ronaldo.mp4" type="video/mp4"> 
+                    </video>
+                    <div style="position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 2px 5px; font-size: 0.7em;">
+                        Cristiano Ronaldo
+                    </div>
+                </div>
+
+                <fieldset class="gallery-fieldset" style="margin: 3 auto; ">
+                    <legend></legend>
+                    <div style="text-align: center;">
+                        <img src="Ronaldo1.jpg" alt="Ronaldo 1" class="gallery-img">
+                        <img src="Ronaldo2.jpg" alt="Ronaldo 2" class="gallery-img">
+                        <img src="Ronaldo3.jpg" alt="Ronaldo 3" class="gallery-img">
+                        <img src="Ronaldo5.jpg" alt="Ronaldo 5" class="gallery-img">
+                    </div>
+                </fieldset>
+                
+                <fieldset class="social-fieldset" style="float: right;">
+                    <legend></legend>
+                    <span style="font-weight: bold; display: block; margin-bottom: 5px;">Social Media</span>
+                    <a href="https://www.instagram.com/cristiano?igsh=MWI2cDA3Z2xvbTM4aw==">Instagram</a>
+                    <a href="#" class="social-link">Youtube</a>
+                    <a href="#" class="social-link">Tiktok</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </fieldset>
+            </div>
+            
+        </fieldset>
+    </body>
+</html>
