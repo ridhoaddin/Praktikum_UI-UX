@@ -1,0 +1,64 @@
+.container1 {
+    display: flex;
+}
+
+.kotak1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    border: 2px solid black;
+    width: 235px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.kotak2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    border: 2px solid black;
+    width: 1350px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container2 {
+    display: flex;
+}
+
+.kotak3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    border: 2px solid black;
+    width: 250px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.kotak4 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(22, 212, 255);
+    border: 2px solid black;
+    width: 1150px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.kotak5 {
+display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    border: 2px solid black;
+    width: 250px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
